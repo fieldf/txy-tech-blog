@@ -2,10 +2,58 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/md/resume",
   {
-    text: "开发日志",
+    text: "技术",
     icon: "book",
-    link: "/md/dev-log/day01.md",
+    prefix: "/tech",
+    children: [
+      {
+        text: "算法",
+        link: "/algorithms",
+      },
+      {
+        text: "数据库",
+        link: "/database",
+      },
+      {
+        text: "Java",
+        link: "/java",
+      },
+      {
+        text: "大数据",
+        link: "/bigdata",
+      },
+      {
+        text: "中间件",
+        link: "/middleware",
+      },
+      {
+        text: "云原生",
+        link: "/cloudnative",
+      }
+    ]
+  },
+  {
+    text: "随笔",
+    icon: "book",
+    // prefix: "/code",
+    link: "/essays",
+  },
+  {
+    text: "学习笔记",
+    icon: "book",
+    prefix: "/notes",
+    children: [
+      {
+        text: "xxx项目",
+        link: "/xxx",
+      }
+    ]
+  },
+  {
+    text: "兴趣爱好",
+    icon: "book",
+    prefix: "/code",
+    link: "/hobbies"
   },
 ]);

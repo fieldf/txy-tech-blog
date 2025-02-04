@@ -3,12 +3,25 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
+  // 添加博客相关配置
+  blog: {
+    name: "txy",
+    avatar: "/logo.png",  // 你的头像路径
+    description: "Java 开发工程师 | 技术博主",
+    intro: "/about/",  // 个人介绍页链接
+    roundAvatar: true,
+    medias: {
+      GitHub: "https://github.com/fuzhengwei",
+      Gitee: "https://gitee.com/fustack",
+      微信公众号: "/wechat-qrcode.jpg"
+    }
+  },
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
-  author: {
-    name: "小傅哥",
-    url: "https://mister-hope.com",
-  },
+  // author: {
+  //   name: "小傅哥",
+  //   url: "https://mister-hope.com",
+  // },
 
   iconAssets: "fontawesome-with-brands",
 
@@ -24,7 +37,7 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
-  footer: "我的微信：fustack",
+  footer: "txy",
 
   displayFooter: true,
 
@@ -40,6 +53,7 @@ export default hopeTheme({
   },
 
   plugins: {
+    blog: true,
     // You should generate and use your own comment service
     // comment: {
     //   provider: "Giscus",
