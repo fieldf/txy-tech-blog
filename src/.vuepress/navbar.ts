@@ -8,6 +8,10 @@ export default navbar([
     prefix: "/tech",
     children: [
       {
+        text: "计算机基础",
+        link: "/basic",
+      },
+      {
         text: "算法",
         link: "/algorithms",
       },

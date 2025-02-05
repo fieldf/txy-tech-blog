@@ -1,15 +1,15 @@
 import { defineClientConfig } from "@vuepress/client";
-import { VPLink } from "D:/code/txy-tech-blog/node_modules/vuepress-shared/lib/client/index.js";
+import { VPLink } from "/Users/tianxinyang/code/txy-tech-blog/node_modules/vuepress-shared/lib/client/index.js";
 
-import { HopeIcon, Layout, NotFound, useScrollPromise, injectDarkmode, setupDarkmode, setupSidebarItems } from "D:/code/txy-tech-blog/node_modules/vuepress-theme-hope/lib/bundle/export.js";
+import { HopeIcon, Layout, NotFound, useScrollPromise, injectDarkmode, setupDarkmode, setupSidebarItems } from "/Users/tianxinyang/code/txy-tech-blog/node_modules/vuepress-theme-hope/lib/bundle/export.js";
 
-import { defineAutoCatalogIconComponent } from "D:/code/txy-tech-blog/node_modules/vuepress-plugin-auto-catalog/lib/client/index.js"
-import { BlogCategory, BlogHome, BlogType, BloggerInfo, Timeline, setupBlog } from "D:/code/txy-tech-blog/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/export.js";
-import "D:/code/txy-tech-blog/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/styles/all.scss";
-import { GlobalEncrypt, LocalEncrypt } from "D:/code/txy-tech-blog/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
-import "D:/code/txy-tech-blog/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
+import { defineAutoCatalogIconComponent } from "/Users/tianxinyang/code/txy-tech-blog/node_modules/vuepress-plugin-auto-catalog/lib/client/index.js"
+import { BlogCategory, BlogHome, BlogType, BloggerInfo, Timeline, setupBlog } from "/Users/tianxinyang/code/txy-tech-blog/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/export.js";
+import "/Users/tianxinyang/code/txy-tech-blog/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/styles/all.scss";
+import { GlobalEncrypt, LocalEncrypt } from "/Users/tianxinyang/code/txy-tech-blog/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
+import "/Users/tianxinyang/code/txy-tech-blog/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
 
-import "D:/code/txy-tech-blog/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
+import "/Users/tianxinyang/code/txy-tech-blog/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
 
 defineAutoCatalogIconComponent(HopeIcon);
 

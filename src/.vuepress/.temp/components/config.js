@@ -1,13 +1,13 @@
 import { defineClientConfig } from "@vuepress/client";
-import { hasGlobalComponent } from "D:/code/txy-tech-blog/node_modules/vuepress-shared/lib/client/index.js";
+import { hasGlobalComponent } from "/Users/tianxinyang/code/txy-tech-blog/node_modules/vuepress-shared/lib/client/index.js";
 import { h } from "vue";
 
-import { useScriptTag } from "D:/code/txy-tech-blog/node_modules/@vueuse/core/index.mjs";
-import Badge from "D:/code/txy-tech-blog/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
-import FontIcon from "D:/code/txy-tech-blog/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
-import BackToTop from "D:/code/txy-tech-blog/node_modules/vuepress-plugin-components/lib/client/components/BackToTop.js";
+import { useScriptTag } from "/Users/tianxinyang/code/txy-tech-blog/node_modules/@vueuse/core/index.mjs";
+import Badge from "/Users/tianxinyang/code/txy-tech-blog/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
+import FontIcon from "/Users/tianxinyang/code/txy-tech-blog/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
+import BackToTop from "/Users/tianxinyang/code/txy-tech-blog/node_modules/vuepress-plugin-components/lib/client/components/BackToTop.js";
 
-import "D:/code/txy-tech-blog/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
+import "/Users/tianxinyang/code/txy-tech-blog/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
 
 export default defineClientConfig({
   enhance: ({ app }) => {
