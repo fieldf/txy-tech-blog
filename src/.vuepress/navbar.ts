@@ -51,6 +51,10 @@ export default navbar([
       {
         text: "xxx项目",
         link: "/xxx",
+      },
+      {
+        text: "大营销项目",
+        link: "/bigmarket",
       }
     ]
   },
