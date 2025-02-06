@@ -62,7 +62,7 @@ export default sidebar({
     {
       text: "日志",
       icon: "laptop-code",
-      link: 'test'
+      link: 'logframework'
     }
   ],
   "/tech/basic/": [

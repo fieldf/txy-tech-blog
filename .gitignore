@@ -4,9 +4,11 @@ node_modules/
 # 忽略 IDE 配置文件
 .idea/
 
-# 忽略 VuePress 缓存和临时文件
-src/.vuepress/.cache/
-src/.vuepress/.temp/
-
 # 忽略本地生成的锁文件（如果使用 yarn）
 package-lock.json
+
+# 忽略 VuePress 缓存和临时文件
+/src/.vuepress/.cache/
+/src/.vuepress/.temp/
+/dev-ops/nginx/html/
+/dev-ops/nginx/logs/
