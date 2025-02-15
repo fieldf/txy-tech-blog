@@ -95,7 +95,7 @@ export default sidebar({
       text: "大营销 项目开发日志",
       icon: "laptop-code",
       // prefix: "md/dev-log/",
-      children: ["day01.md"],
+      children: ["day01.md", "day02.md", "day03.md", "day04.md", "day05.md"],
     }
   ],
   "/essays/": [
