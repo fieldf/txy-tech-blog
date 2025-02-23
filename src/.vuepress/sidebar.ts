@@ -21,6 +21,11 @@ export default sidebar({
       text: "Redis(下)",
       icon: "laptop-code",
       link: 'redis2'
+    },
+    {
+      text: "Redis常见用法",
+      icon: "laptop-code",
+      link: 'redisUse'
     }
   ],
   "/tech/algorithms/": [
@@ -95,7 +100,7 @@ export default sidebar({
       text: "大营销 项目开发日志",
       icon: "laptop-code",
       // prefix: "md/dev-log/",
-      children: ["day01.md", "day02.md", "day03.md", "day04.md", "day05.md", "day06.md", "day07.md"],
+      children: ["day01.md", "day02.md", "day03.md", "day04.md", "day05.md", "day06.md", "day07.md", "day08.md", "day09.md", "day10.md"],
     }
   ],
   "/essays/": [
@@ -108,6 +113,11 @@ export default sidebar({
       text: "新年快乐!",
       icon: "laptop-code",
       link: 'newyear'
+    },
+    {
+      text: "什么是困难的事",
+      icon: "laptop-code",
+      link: 'difficultThing'
     }
   ],
 
