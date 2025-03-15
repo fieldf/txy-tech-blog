@@ -100,7 +100,7 @@ export default sidebar({
       text: "大营销 项目开发日志",
       icon: "laptop-code",
       // prefix: "md/dev-log/",
-      children: ["day01.md", "day02.md", "day03.md", "day04.md", "day05.md", "day06.md", "day07.md", "day08.md", "day09.md", "day10.md"],
+      children: ["day01.md", "day02.md", "day03.md", "day04.md", "day05.md", "day06.md", "day07.md", "day08.md", "day09.md", "day10.md", "day11.md", "day12.md"],
     }
   ],
   "/essays/": [
@@ -118,6 +118,11 @@ export default sidebar({
       text: "什么是困难的事",
       icon: "laptop-code",
       link: 'difficultThing'
+    },
+    {
+      text: "一些工作上的思考",
+      icon: "laptop-code",
+      link: 'workthinking'
     }
   ],
 
