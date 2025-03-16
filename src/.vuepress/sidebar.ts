@@ -30,17 +30,10 @@ export default sidebar({
   ],
   "/tech/algorithms/": [
     {
-      text: '介绍',
-      icon: 'home',
-      link: '/code/',
-    },
-    {
-      text: "技术",
+      text: "算法",
       icon: "laptop-code",
-      collapsible: true,
-      children: [
-        "test"
-      ]
+      // prefix: "md/dev-log/",
+      children: ["linkedlist.md"],
     }
   ],
   "/tech/java/": [
@@ -107,7 +100,7 @@ export default sidebar({
     {
       text: "chatgpt 项目开发日志",
       icon: "laptop-code",
-      children: ["day01.md"],
+      children: ["day01.md", "day02.md"],
     }
   ],
   "/essays/": [
