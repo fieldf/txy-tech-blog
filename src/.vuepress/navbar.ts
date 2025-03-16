@@ -55,6 +55,10 @@ export default navbar([
       {
         text: "大营销项目",
         link: "/bigmarket",
+      },
+      {
+        text: "chatgpt项目",
+        link: "/chatgpt",
       }
     ]
   },
