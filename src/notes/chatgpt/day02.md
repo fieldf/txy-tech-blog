@@ -8,6 +8,7 @@ category:
   - chatgpt
 tags:
   - dev-ops
+  - nginx
 ---
 
 ## 创建一个springboot工程，提供鉴权和鉴权成功访问接口

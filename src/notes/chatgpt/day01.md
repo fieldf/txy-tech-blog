@@ -56,10 +56,10 @@ nginx
 ```
 
 2. dev-ops工程下创建目录
-nginx/conf/conf.d
-nginx/html
-nginx/logs
-nginx/ssl
+- nginx/conf/conf.d
+- nginx/html
+- nginx/logs
+- nginx/ssl
 
 3. 把docker容器下的配置文件拷贝到我们dev-ops项目创建的目录下：
 ```shell
@@ -84,3 +84,4 @@ docker run \
 -v /xxx/nginx/ssl:/etc/nginx/ssl \
 --privileged=true -d --restart=always nginx
 ```
+安装完以后就可以通过修改自己本地的nginx配置去修改docker中nginx的配置了

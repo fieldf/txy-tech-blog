@@ -100,7 +100,7 @@ export default sidebar({
     {
       text: "chatgpt 项目开发日志",
       icon: "laptop-code",
-      children: ["day01.md", "day02.md"],
+      children: ["day01.md", "day02.md", "day03.md"],
     }
   ],
   "/essays/": [
