@@ -59,6 +59,10 @@ export default navbar([
       {
         text: "chatgpt项目",
         link: "/chatgpt",
+      },
+      {
+        text: "rag&mcp项目",
+        link: "/ragmcp",
       }
     ]
   },

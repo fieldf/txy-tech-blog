@@ -103,6 +103,13 @@ export default sidebar({
       children: ["day01.md", "day02.md", "day03.md"],
     }
   ],
+  "/notes/ragmcp/": [
+    {
+      text: "rag&mcp 项目开发日志",
+      icon: "laptop-code",
+      children: ["day01.md"],
+    }
+  ],
   "/essays/": [
     {
       text: '随笔',
