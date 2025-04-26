@@ -107,7 +107,7 @@ export default sidebar({
     {
       text: "rag&mcp 项目开发日志",
       icon: "laptop-code",
-      children: ["day01.md"],
+      children: ["day01.md", "day02.md"],
     }
   ],
   "/essays/": [
