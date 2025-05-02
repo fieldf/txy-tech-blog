@@ -17,3 +17,5 @@ services:
       - ./nginx/conf/conf.d:/etc/nginx/conf.d
       - ./nginx/ssl:/etc/nginx/ssl/
     privileged: true
+
+

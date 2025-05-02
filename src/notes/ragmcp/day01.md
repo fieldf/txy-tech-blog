@@ -5,7 +5,7 @@ index: false
 icon: laptop-code
 category:
   - 学习笔记
-  - chatgpt
+  - ai
 tags:
   - deepseek
   - ollama

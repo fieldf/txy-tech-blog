@@ -5,16 +5,17 @@ index: false
 icon: laptop-code
 category:
   - 学习笔记
-  - chatgpt
+  - ai
 tags:
   - deepseek
   - ollama
 ---
 
-- 分支：3-stream-api
+## 分支：3-stream-api
 
-- 创建启动类和配置文件
-- 创建redis配置类
+## 实现步骤
+### 创建启动类和配置文件
+### 创建redis配置类
 ```java
 @Configuration
 @EnableConfigurationProperties(RedisClientConfigProperties.class)
@@ -74,7 +75,7 @@ public class RedisClientConfigProperties {
 
 }
 ```
-- 创建接口IAiService
+### 创建接口IAiService
 ```java
 public interface IAiService {
     ChatResponse generate(String model, String mesage);
@@ -82,14 +83,24 @@ public interface IAiService {
 }
 ```
 
-- trigger触发器层创建OllamaController实现IAiService接口
+### 创建OllamaController实现IAiService接口
+trigger触发器层创建OllamaController实现IAiService接口
 
-
-
-- 问题：
+## 问题：
 遇到连接redis服务端时报错：Redis容器权限不足导致rdb快照持久化失败，通过挂载数据目录修正权限解决。
+- 步骤 1：清理错误配置残留
 ```yml
 volumes:
   - ./redis/redis.conf:/usr/local/etc/redis/redis.conf
   - ./redis/data:/data  # 新增数据目录挂载
+```
+- 步骤 2：清理错误配置残留
+```bash
+# 删除可能被错误配置生成的文件
+sudo rm -f /etc/profile.d/watch.sh
+```
+- 步骤 3：重建 Redis 容器
+```bash
+docker-compose -f docker-compose-environment-aliyun.yml down redis
+docker-compose -f docker-compose-environment-aliyun.yml up -d --force-recreate redis
 ```
