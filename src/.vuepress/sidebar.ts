@@ -33,7 +33,7 @@ export default sidebar({
       text: "算法",
       icon: "laptop-code",
       // prefix: "md/dev-log/",
-      children: ["linkedlist.md"],
+      children: ["linkedlist.md","arrays.md","hash.md","queue.md","trie.md"],
     }
   ],
   "/tech/java/": [
@@ -135,6 +135,11 @@ export default sidebar({
       text: "一些工作上的思考2",
       icon: "laptop-code",
       link: 'kunhuo'
+    },
+    {
+      text: "如何能更快的成长",
+      icon: "laptop-code",
+      link: 'ruheggkkigvh'
     }
   ],
 
